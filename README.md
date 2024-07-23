@@ -1,6 +1,6 @@
 # Voice Recognition with Machine Learning on Arduino Nano 33 BLE Sense
 
-This is a comprehensive and detailed post on voice recognition with machine learning on the Arduino Nano 33 BLE Sense. The post covers various aspects, including hardware and software requirements, capturing audio samples, training a machine learning model, and deploying it to Arduino.
+This is a project on voice recognition with machine learning on the Arduino Nano 33 BLE Sense. The project covers various aspects, including hardware and software requirements, capturing audio samples, training a machine learning model, and deploying it to Arduino.
 
 
 ## Hardware and Software Requirements: 
@@ -14,7 +14,7 @@ pip install -U micromlgen
 
 ## Capturing Audio Samples: 
 
-The tutorial instructs on how to capture audio samples of specific words using the Arduino board. It involves using the microphone on the Arduino Nano 33 BLE Sense, which utilizes pulse-density modulation, and recording short words like ‘yes’, ‘no’, ‘play’, ‘stop’. Variations in voice intensity and distance from the microphone are recommended for robust data collection. The collected data is then saved in CSV format.
+It involves using the microphone on the Arduino Nano 33 BLE Sense, which utilizes pulse-density modulation, and recording short words like ‘yes’, ‘no’, ‘play’, ‘stop’. Variations in voice intensity and distance from the microphone are recommended for robust data collection. The collected data is then saved in CSV format.
 
 To flash the code to your board, copy the provided code (arduino_audio_capture.ino), open the Arduino IDE, and follow the on-screen instructions.
 
